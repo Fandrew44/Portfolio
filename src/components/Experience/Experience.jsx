@@ -5,7 +5,7 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 
 const Experience = () => {
-  const experiences = useContext(PortfolioContext);
+  const { experiences } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -25,7 +25,14 @@ const Experience = () => {
       <Container>
         <div className="experience-wrapper">
           <Title title="Experience" />
-          
+          {experiences.map((experience) => {
+            const { id, logo, organization, position, descripton, url } = experience;
+
+            return (
+              <p1>Hello</p1>
+
+            );
+          })};
         </div>
       </Container>
     </section>

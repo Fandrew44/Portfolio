@@ -60,19 +60,19 @@ export const projectsData = [
 export const experienceData = [
   {
     id: nanoid(),
-    logo: '', //company logo
-    organization: '', //company name
-    position: '', //job title
-    description: '', //job description
-    url: '' //company website link
+    logo: 'test', //company logo (image)
+    organization: 'test', //company name
+    position: 'test', //job title
+    description: 'test', //job description
+    url: 'test' //company website link
   },
   {
     id: nanoid(),
-    logo: '', //company logo
-    organization: '', //company name
-    position: '', //job title
-    description: '', //job description
-    url: '' //company website link
+    logo: 'test', //company logo
+    organization: 'test', //company name
+    position: 'test', //job title
+    description: 'test', //job description
+    url: 'test' //company website link
   },
 ];
 

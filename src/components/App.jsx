@@ -4,6 +4,7 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import Experience from './Experience/Experience';
 
 import { PortfolioProvider } from '../context/context';
 
@@ -13,7 +14,7 @@ function App() {
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
-  const [experience, setExperience] = useState([]);
+  const [experiences, setExperiences] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
 
@@ -21,17 +22,17 @@ function App() {
     setHero({ ...heroData });
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
-    setExperience([..experienceData]);
+    setExperiences([...experienceData]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, experience, contact, footer }}>
+    <PortfolioProvider value={{ hero, about, projects, experiences, contact, footer }}>
       <Hero />
       <About />
-      <Projects />
       <Experience />
+      <Projects />
       <Contact />
       <Footer />
     </PortfolioProvider>
