@@ -1,10 +1,6 @@
 #about {
   background-color: $primary-color;
-  background-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
-  );
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   color: $white-color;
   height: 100%;
   border-top: 0px;
@@ -23,20 +19,6 @@
       padding-bottom: 5rem;
     }
 
-    &__image {
-      display: flex;
-      height: 100%;
-      align-items: center;
-      justify-content: center;
-
-      @include respond(tab-port) {
-        padding-bottom: 6.4rem;
-      }
-      @include respond(tab-land) {
-        height: 100%;
-      }
-    }
-
     &__info {
       display: flex;
       height: 100%;
@@ -48,7 +30,7 @@
       }
 
       &-text {
-        text-align: left;
+        text-align: center;
 
         @include respond(tab-port) {
           font-size: 1.5rem;
