@@ -5,20 +5,31 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 
 const Experience = () => {
-    const [isDesktop, setIsDesktop] = useState(false);
-    const [isMobile, setIsMobile] = useState(false);
-  
-    useEffect(() => {
-      if (window.innerWidth > 769) {
-        setIsDesktop(true);
-        setIsMobile(false);
-      } else {
-        setIsMobile(true);
-        setIsDesktop(false);
-      }
-    }, []);
+  const experiences = useContext(PortfolioContext);
 
-    return(
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
-    );
+  useEffect(() => {
+    if (window.innerWidth > 769) {
+      setIsDesktop(true);
+      setIsMobile(false);
+    } else {
+      setIsMobile(true);
+      setIsDesktop(false);
+    }
+  }, []);
+
+  return (
+    <section id="experience">
+      <Container>
+        <div className="experience-wrapper">
+          <Title title="Experience" />
+          
+        </div>
+      </Container>
+    </section>
+  );
 }
+
+export default Experience;

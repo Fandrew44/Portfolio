@@ -56,6 +56,26 @@ export const projectsData = [
   },
 ];
 
+//EXPERIENCE DATA
+export const experienceData = [
+  {
+    id: nanoid(),
+    logo: '', //company logo
+    organization: '', //company name
+    position: '', //job title
+    description: '', //job description
+    url: '' //company website link
+  },
+  {
+    id: nanoid(),
+    logo: '', //company logo
+    organization: '', //company name
+    position: '', //job title
+    description: '', //job description
+    url: '' //company website link
+  },
+];
+
 // CONTACT DATA
 export const contactData = {
   cta: '',
