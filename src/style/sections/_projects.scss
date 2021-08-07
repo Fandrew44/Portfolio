@@ -36,7 +36,7 @@
 
       &-title {
         font-weight: bold;
-        margin-bottom: 1.8rem;
+        margin-bottom: 0.5rem;
         font-size: $mid-font-size;
 
         @include respond(phone) {
@@ -46,6 +46,16 @@
 
       & p > a {
         color: $secondary-color;
+      }
+
+      &-date {
+        font-weight: normal;
+        margin-bottom: 1.5rem;
+        font-size: $small-font-size;
+
+        @include respond(phone) {
+          font-size: 2rem;
+        }
       }
     }
 

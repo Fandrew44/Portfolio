@@ -31,6 +31,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: '',
+    date: '', //date at which the project was completed
     info: 'can you see dis',
     info2: '',
     url: '',
@@ -40,6 +41,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: '',
+    date: '',
     info: '',
     info2: '',
     url: '',
@@ -49,6 +51,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: '',
+    date: '',
     info: '',
     info2: '',
     url: '',
