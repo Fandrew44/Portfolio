@@ -62,6 +62,7 @@ export const experienceData = [
     id: nanoid(),
     logo: 'FISPAN_logo.jpg', //company logo (image)
     organization: 'FISPAN', //company name
+    duration: 'Jan 2021 - Aug 2021', //time spent in the position
     position: 'Software Development Intern', //job title
     description: 'me code monkey oo oo aah aah', //job description
     url: 'https://fispan.com/' //company website link
@@ -70,7 +71,8 @@ export const experienceData = [
     id: nanoid(),
     logo: 'UBC_logo.jpg', //company logo
     organization: 'The University of British Columbia', //company name
-    position: 'Computer Science Teaching Assistant', //job title
+    duration: 'Sept 2020 - Dec 2020', //time spent in the position
+    position: 'CS Teaching Assistant', //job title
     description: 'me teach people how to code yay', //job description
     url: 'https://www.cs.ubc.ca/' //company website link
   },

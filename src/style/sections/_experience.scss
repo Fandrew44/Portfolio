@@ -45,8 +45,18 @@
         }
 
         &-position {
-            margin-bottom: 1.3rem;
+            margin-bottom: 0.5rem;
             font-style: italic;
+
+            @include respond(phone) {
+                font-size: 2rem;
+            }
+        }
+
+        &-duration {
+            margin-bottom: 1.3rem;
+            font-size: $small-font-size;
+            font-weight: normal;
 
             @include respond(phone) {
                 font-size: 2rem;

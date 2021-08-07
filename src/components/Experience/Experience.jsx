@@ -28,7 +28,7 @@ const Experience = () => {
         <div className="experience-wrapper">
           <Title title="Experience" />
           {experiences.map((experience) => {
-            const { id, logo, organization, position, description, url } = experience;
+            const { id, logo, organization, duration, position, description, url } = experience;
 
             return (
               <Row key={id}>
@@ -42,7 +42,8 @@ const Experience = () => {
                   >
                     <div className="experience-wrapper__text">
                       <h3 className="experience-wrapper__text-organization">{organization || 'Organization Name'}</h3>
-                      <h2 className="experience-wrapper__text-position">{position || 'Position title'}</h2>
+                      < h2 className="experience-wrapper__text-position">{position || 'Position title'}</h2>
+                      <h1 className="experience-wrapper__text-duration">{duration || 'Time spent in the position'}</h1>
                       <div>
                         <p>
                           {description || 'Job Description'}
