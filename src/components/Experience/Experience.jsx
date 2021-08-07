@@ -59,7 +59,7 @@ const Experience = () => {
                     delay={1000}
                     distance="30px"
                   >
-                    <div className="project-wrapper__image">
+                    <div className="experience-wrapper__image">
                       <a
                         href={url || '#!'}
                         target="_blank"

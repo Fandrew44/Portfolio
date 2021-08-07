@@ -60,19 +60,19 @@ export const projectsData = [
 export const experienceData = [
   {
     id: nanoid(),
-    logo: 'test', //company logo (image)
-    organization: 'test', //company name
-    position: 'test', //job title
-    description: 'test', //job description
-    url: 'test' //company website link
+    logo: 'project.jpg', //company logo (image)
+    organization: 'FISPAN', //company name
+    position: 'Software Development Intern', //job title
+    description: 'me code monkey ooh ooh aah aah', //job description
+    url: 'https://fispan.com/' //company website link
   },
   {
     id: nanoid(),
-    logo: 'test', //company logo
-    organization: 'test', //company name
-    position: 'test', //job title
-    description: 'test', //job description
-    url: 'test' //company website link
+    logo: 'project.jpg', //company logo
+    organization: 'The University of British Columbia', //company name
+    position: 'Computer Science Teaching Assistant', //job title
+    description: 'me teach people how to code yay', //job description
+    url: 'https://www.cs.ubc.ca/' //company website link
   },
 ];
 
