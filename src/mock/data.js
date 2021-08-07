@@ -31,7 +31,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: '',
-    info: '',
+    info: 'can you see dis',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -60,15 +60,15 @@ export const projectsData = [
 export const experienceData = [
   {
     id: nanoid(),
-    logo: 'project.jpg', //company logo (image)
+    logo: 'FISPAN_logo.jpg', //company logo (image)
     organization: 'FISPAN', //company name
     position: 'Software Development Intern', //job title
-    description: 'me code monkey ooh ooh aah aah', //job description
+    description: 'me code monkey oo oo aah aah', //job description
     url: 'https://fispan.com/' //company website link
   },
   {
     id: nanoid(),
-    logo: 'project.jpg', //company logo
+    logo: 'UBC_logo.jpg', //company logo
     organization: 'The University of British Columbia', //company name
     position: 'Computer Science Teaching Assistant', //job title
     description: 'me teach people how to code yay', //job description

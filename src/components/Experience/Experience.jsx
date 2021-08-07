@@ -42,7 +42,7 @@ const Experience = () => {
                   >
                     <div className="experience-wrapper__text">
                       <h3 className="experience-wrapper__text-organization">{organization || 'Organization Name'}</h3>
-                      <h2 className="experience-wrapper__text-position">{position | 'Position title'}</h2>
+                      <h2 className="experience-wrapper__text-position">{position || 'Position title'}</h2>
                       <div>
                         <p>
                           {description || 'Job Description'}
@@ -70,7 +70,7 @@ const Experience = () => {
                           options={{
                             reverse: false,
                             max: 8,
-                            perespective: 1000,
+                            perspective: 1000,
                             scale: 1,
                             speed: 300,
                             transition: true,
@@ -80,7 +80,7 @@ const Experience = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={organization} fileName={logo}></ProjectImg>
+                            <ProjectImg alt={organization} filename={logo} />
                           </div>
                         </Tilt>
                       </a>
