@@ -26,6 +26,7 @@ export const aboutData = {
 };
 
 // PROJECTS DATA
+//TODO: IMPLEMENT SECTION & STYLING FOR TECH STACK
 export const projectsData = [
   {
     id: nanoid(),
@@ -35,7 +36,8 @@ export const projectsData = [
     info: 'can you see dis',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    techstack: ''
   },
   {
     id: nanoid(),
@@ -45,7 +47,8 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    techstack: ''
   },
   {
     id: nanoid(),
@@ -55,7 +58,19 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    techstack: ''
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Todo Calendar',
+    date: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    techstack: ''
   },
   {
     id: nanoid(),
@@ -65,7 +80,8 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    techstack: ''
   },
   {
     id: nanoid(),
@@ -75,7 +91,8 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    techstack: ''
   },
   {
     id: nanoid(),
@@ -85,7 +102,8 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    techstack: ''
   },
   {
     id: nanoid(),
@@ -95,7 +113,8 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    techstack: ''
   },
 ];
 
@@ -112,8 +131,8 @@ export const experienceData = [
   },
   {
     id: nanoid(),
-    logo: 'FISPAN_logo.jpg', //company logo (image)
-    organization: 'Launchpad', //company name
+    logo: 'UBC_launchpad_logo.jpg', //company logo (image)
+    organization: 'UBC Launchpad', //company name
     duration: 'Sept 2020 - Apr 2021', //time spent in the position
     position: 'Software Developer', //job title
     description: 'code gang yuh', //job description
@@ -132,7 +151,7 @@ export const experienceData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'What are you waiting for?',
+  cta: 'Project ideas? Work opportunities? Quality memes? I\'m down!',
   btn: 'Let\'s Chat!',
   email: 'ahgreeting@gmail.com',
 };
