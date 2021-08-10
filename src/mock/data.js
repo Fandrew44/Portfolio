@@ -151,12 +151,13 @@ export const experienceData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Project ideas? Work opportunities? Quality memes? I\'m down!',
+  cta: 'Project ideas? Work opportunities? Quality memes? I\'m interested!',
   btn: 'Let\'s Chat!',
   email: 'ahgreeting@gmail.com',
 };
 
 // FOOTER DATA
+//TODO; UPDATE FOOTER DATA
 export const footerData = {
   networks: [
     {
