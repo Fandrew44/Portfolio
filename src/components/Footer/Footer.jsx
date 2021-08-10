@@ -37,10 +37,11 @@ const Footer = () => {
             })}
         </div>
         <hr />
+        <p className="footer__text">Journey before destination.</p>
         <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+          © {new Date().getFullYear()} - Developed by{' '}
+          <a href="https://github.com/Fandrew44" target="_blank" rel="noopener noreferrer">
+            Andrew Han
           </a>
         </p>
 

@@ -30,7 +30,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Todo Scheduler',
     date: '', //date at which the project was completed
     info: 'can you see dis',
     info2: '',
@@ -40,7 +40,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Benny Beaver',
     date: '',
     info: '',
     info2: '',
@@ -50,7 +50,47 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Aim Trainer',
+    date: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Time Tracker',
+    date: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'PlanR',
+    date: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'UBC Realtime Courses API',
+    date: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'MoneyMotion',
     date: '',
     info: '',
     info2: '',
@@ -72,6 +112,15 @@ export const experienceData = [
   },
   {
     id: nanoid(),
+    logo: 'FISPAN_logo.jpg', //company logo (image)
+    organization: 'Launchpad', //company name
+    duration: 'Sept 2020 - Apr 2021', //time spent in the position
+    position: 'Software Developer', //job title
+    description: 'code gang yuh', //job description
+    url: 'https://ubclaunchpad.com/' //company website link
+  },
+  {
+    id: nanoid(),
     logo: 'UBC_logo.jpg', //company logo
     organization: 'The University of British Columbia', //company name
     duration: 'Sept 2020 - Dec 2020', //time spent in the position
@@ -83,9 +132,9 @@ export const experienceData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'What are you waiting for?',
+  btn: 'Let\'s Chat!',
+  email: 'ahgreeting@gmail.com',
 };
 
 // FOOTER DATA
@@ -116,5 +165,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
