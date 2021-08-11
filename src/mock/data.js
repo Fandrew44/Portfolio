@@ -19,66 +19,81 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: '',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: `Hey! You already know I\'m a software developer from the title, but that\'s really just one of the ways I express my insatiable desire
+                 for learning. I'm really a student, both literally and figuratively, and I love to learn. Computer science was an obvious choice for me
+                 with its low barrier of entry and unimaginable level of depth. Not only do I enjoy its endless array of new technologies to spend my mornings, afternoons, and evenings pursuing,
+                 but its community has also allowed me to hone my communication and leadership skills. I'll never forgot my first hackathon all-nighter nor will I forgot the first
+                 time I was able to answer somebody else's programming question.`,
+  paragraphTwo: `Computer science has truly given me many great opportunities, memories, and friends. As a result, I continuously strive towards improving upon my
+                 knowledge and skills in the field so that I can not only give back to the community, but also apply the things I have learned towards tackling
+                 real problems that affect people around the world`,
+  paragraphThree: `When I'm not programming away on my laptop, you'll most likely find me shanking passes on the volleyball court, face planting at the local skate park,
+                   or relaxing in bed with a good movie or show.`,
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 //TODO: IMPLEMENT SECTION & STYLING FOR TECH STACK
+//TODO: UPDATE FONT-STYLE TO MAKE IT MORE READABLE (kinda difficult to read atm)
 export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
     title: 'Todo Scheduler',
-    date: '', //date at which the project was completed
-    info: 'can you see dis',
-    info2: '',
+    date: 'Apr 2021', //date at which the project was completed
+    info: `Ever felt overwhelmed by a mountain of things you need to finish without a single clue on where to start?`,
+    info2: `This mobile app will
+            help you combat that sense of doom and gloom by helping you keep track of all the tasks you need to accomplish. Even more, it
+            displays all information in a neat and easily understandable calendar format to encourage better prioritization and time management habits.`,
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    repo: 'https://github.com/Fandrew44/todo-scheduler', // if no repo, the button will not show up,
     techstack: ''
   },
   {
     id: nanoid(),
     img: 'project.jpg',
     title: 'Benny Beaver',
-    date: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    date: 'February 2021',
+    info: '"Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it is the only thing that ever has." - Margaret Mead',
+    info2: `A Hackathon project stemmed from our group\'s collective desire to reduce unnecessary waste and to raise environmental awareness
+            in the form of an entertaining and educational game. By itself it won't change the world, but it's a step in the right direction.`,
+    url: 'https://devpost.com/software/bennybeaver2010',
+    repo: 'https://github.com/Fandrew44/BennyBeaver2010', // if no repo, the button will not show up,
     techstack: ''
   },
   {
     id: nanoid(),
     img: 'project.jpg',
     title: 'Aim Trainer',
-    date: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
-    techstack: ''
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Todo Calendar',
-    date: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    date: 'Jan 2021',
+    info: `A web app developed to assist both aspiring FPS professionals as well as those looking to improve their coordination skills.
+           Motivates players by clearly presenting their current session's statistics, allowing them to recognize their areas of improvement.`,
+    info2: 'Feel free to give it a shot! Pun very much intended :)',
+    url: 'https://www.aimframe.xyz/',
+    repo: 'https://github.com/Fandrew44/Aimframe', // if no repo, the button will not show up,
     techstack: ''
   },
   {
     id: nanoid(),
     img: 'project.jpg',
     title: 'Time Tracker',
-    date: '',
-    info: '',
-    info2: '',
+    date: 'Dec 2020',
+    info: 'When your focus is jumping from one task to another without break, it\'s easy to lose track of the time and for your attention to waver.',
+    info2: `This mobile app is designed to simplify the process of keeping track of the time spent on a specific task, allowing the user to devote
+            their energy towards performing their best. In addition, it visualizes the user's data in an engaging and readable manner to allow for
+            easy understanding of specific areas to improve on.`,
+    url: '',
+    repo: 'https://github.com/Fandrew44/time-tracker', // if no repo, the button will not show up,
+    techstack: ''
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'UBC Realtime Courses API',
+    date: 'Aug 2020',
+    info: 'The UBC course searcher is...not the best, putting it politely.',
+    info2: `That\'s why my friends and I developed this UBC courses API that not only makes course data easily accessible to both
+            students and developers, but it also retrieves the data in real time!`,
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
     techstack: ''
@@ -87,33 +102,25 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'PlanR',
-    date: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
-    techstack: ''
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'UBC Realtime Courses API',
-    date: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    date: 'Jul 2020',
+    info: 'Vacations are a time for fun and relaxation, so why do we bother debating so much about which attraction to visit or which restaurant to eat at?',
+    info2: `This Hackathon project in the form of a web app allows travelers to input their own individual preferences in multiple categories, from favourites foods
+            to must visit attractions. It then creates the perfect travel itinerary for the group based off of each of their choices!`,
+    url: 'https://devpost.com/software/planr-zl40yo',
+    repo: 'https://github.com/Fandrew44/PlanR', // if no repo, the button will not show up,
     techstack: ''
   },
   {
     id: nanoid(),
     img: 'project.jpg',
     title: 'MoneyMotion',
-    date: '',
-    info: '',
-    info2: '',
+    date: 'Apr 2020',
+    info: 'University students are infamously known for making poor financial decisions, but there is hope.',
+    info2: `This desktop app helps students to keep track of their financial transactions so that they don\'t have to. By removing
+            the burden of manually tracking their own transactions, it allows students to focus more towards their studies and less on worrying
+            about the $12 burger they just ate.`,
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    repo: 'https://github.com/Fandrew44/MoneyMotion', // if no repo, the button will not show up,
     techstack: ''
   },
 ];
@@ -162,23 +169,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/andrew-han-a57a5b1a9/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Fandrew44',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/ayj.han/',
     },
   ],
 };
