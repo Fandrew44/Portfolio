@@ -94,8 +94,8 @@ export const projectsData = [
     info: 'The UBC course searcher is...not the best, putting it politely.',
     info2: `That\'s why my friends and I developed this UBC courses API that not only makes course data easily accessible to both
             students and developers, but it also retrieves the data in real time!`,
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up,
+    url: 'https://docs.ubccourses.com/',
+    repo: 'https://github.com/Fandrew44/realtime-ubc-courses-api', // if no repo, the button will not show up,
     techstack: ''
   },
   {
@@ -136,7 +136,7 @@ export const experienceData = [
     description: `- Worked in the banking team to develop new payment rails and migrate existing ones using Java, Kotlin, and Spring Boot on the backend 
                   - Implemented new pages on the frontend to improve internal troubleshooting efficiency across 130+ engineering & operations team members using React, Redux, and RambdaJS
                   - Engineered a new CI/CD pipeline through Gitlab to perform automated build, release, and deployment to AWS
-                  - Developed extensive test suites and increased internal validations by 30% using JUnit, Spek, Mockito, and YAML files`, //job description
+                  - Developed extensive test suites and increased internal validations by 30% using JUnit, Spek, Mockito, and YAML`, //job description
     url: 'https://fispan.com/' //company website link
   },
   {
