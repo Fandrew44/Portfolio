@@ -30,6 +30,8 @@ const Experience = () => {
           {experiences.map((experience) => {
             const { id, logo, organization, duration, position, description, url } = experience;
 
+            // const desc = JSON.parse({ test: "juice" });
+
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>

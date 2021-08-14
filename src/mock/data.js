@@ -27,7 +27,7 @@ export const aboutData = {
   paragraphTwo: `Computer science has truly given me many great opportunities, memories, and friends. As a result, I continuously strive towards improving upon my
                  knowledge and skills in the field so that I can not only give back to the community, but also apply the things I have learned towards tackling
                  real problems that affect people around the world`,
-  paragraphThree: `When I'm not programming away on my laptop, you'll most likely find me shanking passes on the volleyball court, face planting at the local skate park,
+  paragraphThree: `When I'm not programming away on my laptop, you'll most likely find me playing on the nearest volleyball court, learning new tricks at the local skate park,
                    or relaxing in bed with a good movie or show.`,
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -133,7 +133,7 @@ export const experienceData = [
     organization: 'FISPAN', //company name
     duration: 'Jan 2021 - Aug 2021', //time spent in the position
     position: 'Software Development Intern', //job title
-    description: 'me code monkey oo oo aah aah', //job description
+    description: "- Worked in the banking team to develop new payment rails and migrate existing ones using Java, Kotlin, and Spring Boot on the backend\n - Implemented new pages on the frontend to improve internal troubleshooting efficiency across 130+ engineering & operations team members using React, Redux, and RambdaJS\n - Engineered a new CI/CD pipeline through Gitlab to perform automated build, release, and deployment to AWS\n - Developed extensive test suites and increased internal validations by 30% using JUnit, Spek, Mockito, and YAML files\n", //job description
     url: 'https://fispan.com/' //company website link
   },
   {
