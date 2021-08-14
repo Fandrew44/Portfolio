@@ -38,7 +38,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'todo-cal.PNG',
     title: 'Todo Scheduler (Launchpad)',
     date: 'Apr 2021', //date at which the project was completed
     info: `Ever felt overwhelmed by a mountain of things you need to finish without a single clue on where to start?`,
@@ -51,7 +51,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'benny-beaver.PNG',
     title: 'Benny Beaver',
     date: 'February 2021',
     info: '"Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it is the only thing that ever has." - Margaret Mead',
@@ -63,7 +63,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'aimtrainer.PNG',
     title: 'Aim Trainer',
     date: 'Jan 2021',
     info: `A web app developed to assist both aspiring FPS professionals as well as those looking to improve their coordination skills.
@@ -75,7 +75,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'time-tracker.PNG',
     title: 'Time Tracker (Launchpad)',
     date: 'Dec 2020',
     info: 'When your focus is jumping from one task to another without break, it\'s easy to lose track of the time and for your attention to waver.',
@@ -88,7 +88,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'ubc-realtime-courses-api.PNG',
     title: 'UBC Realtime Courses API',
     date: 'Aug 2020',
     info: 'The UBC course searcher is...not the best, putting it politely.',
@@ -100,7 +100,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'planr.PNG',
     title: 'PlanR',
     date: 'Jul 2020',
     info: 'Vacations are a time for fun and relaxation, so why do we bother debating so much about which attraction to visit or which restaurant to eat at?',
@@ -112,7 +112,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'money-motion.PNG',
     title: 'MoneyMotion',
     date: 'Apr 2020',
     info: 'University students are infamously known for making poor financial decisions, but there is hope.',
