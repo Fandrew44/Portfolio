@@ -39,7 +39,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Todo Scheduler',
+    title: 'Todo Scheduler (Launchpad)',
     date: 'Apr 2021', //date at which the project was completed
     info: `Ever felt overwhelmed by a mountain of things you need to finish without a single clue on where to start?`,
     info2: `This mobile app will
@@ -76,7 +76,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Time Tracker',
+    title: 'Time Tracker (Launchpad)',
     date: 'Dec 2020',
     info: 'When your focus is jumping from one task to another without break, it\'s easy to lose track of the time and for your attention to waver.',
     info2: `This mobile app is designed to simplify the process of keeping track of the time spent on a specific task, allowing the user to devote
@@ -133,7 +133,10 @@ export const experienceData = [
     organization: 'FISPAN', //company name
     duration: 'Jan 2021 - Aug 2021', //time spent in the position
     position: 'Software Development Intern', //job title
-    description: "- Worked in the banking team to develop new payment rails and migrate existing ones using Java, Kotlin, and Spring Boot on the backend\n - Implemented new pages on the frontend to improve internal troubleshooting efficiency across 130+ engineering & operations team members using React, Redux, and RambdaJS\n - Engineered a new CI/CD pipeline through Gitlab to perform automated build, release, and deployment to AWS\n - Developed extensive test suites and increased internal validations by 30% using JUnit, Spek, Mockito, and YAML files\n", //job description
+    description: `- Worked in the banking team to develop new payment rails and migrate existing ones using Java, Kotlin, and Spring Boot on the backend 
+                  - Implemented new pages on the frontend to improve internal troubleshooting efficiency across 130+ engineering & operations team members using React, Redux, and RambdaJS
+                  - Engineered a new CI/CD pipeline through Gitlab to perform automated build, release, and deployment to AWS
+                  - Developed extensive test suites and increased internal validations by 30% using JUnit, Spek, Mockito, and YAML files`, //job description
     url: 'https://fispan.com/' //company website link
   },
   {
@@ -142,7 +145,9 @@ export const experienceData = [
     organization: 'UBC Launchpad', //company name
     duration: 'Sept 2020 - Apr 2021', //time spent in the position
     position: 'Software Developer', //job title
-    description: 'code gang yuh', //job description
+    description: `- Developed innovative apps aimed towards improving ones time management and organizational skills
+                  - Engaged in weekly team discussions and lead the initaitive in implementing new ideas and features
+                  - Presented final products to the entire organization`, //job description
     url: 'https://ubclaunchpad.com/' //company website link
   },
   {
@@ -151,7 +156,8 @@ export const experienceData = [
     organization: 'The University of British Columbia', //company name
     duration: 'Sept 2020 - Dec 2020', //time spent in the position
     position: 'CS Teaching Assistant', //job title
-    description: 'me teach people how to code yay', //job description
+    description: `- Clarified questions and confusing topics in live and online forum office hours
+                  - Supervised labs and provided guidance and feedback for students' final term project`, //job description
     url: 'https://www.cs.ubc.ca/' //company website link
   },
 ];
