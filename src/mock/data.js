@@ -28,7 +28,7 @@ export const aboutData = {
                  knowledge and skills in the field so that I can not only give back to the community, but also apply the things I have learned towards tackling
                  real problems that affect people around the world`,
   paragraphThree: `When I'm not programming away on my laptop, you'll most likely find me playing on the nearest volleyball court, learning new tricks at the local skate park,
-                   or relaxing in bed with a good movie or show.`,
+                   or relaxing in bed with a good book or show`,
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -38,7 +38,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'todo-cal.PNG',
+    mobileImage: 'todo-cal.PNG',
     title: 'Todo Scheduler (Launchpad)',
     date: 'Apr 2021', //date at which the project was completed
     info: `Ever felt overwhelmed by a mountain of things you need to finish without a single clue on where to start?`,
@@ -75,7 +75,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'time-tracker.PNG',
+    mobileImage: 'todo-cal.PNG',
     title: 'Time Tracker (Launchpad)',
     date: 'Dec 2020',
     info: 'When your focus is jumping from one task to another without break, it\'s easy to lose track of the time and for your attention to waver.',
@@ -136,7 +136,7 @@ export const experienceData = [
     description: `- Worked in the banking team to develop new payment rails and migrate existing ones using Java, Kotlin, and Spring Boot on the backend 
                   - Implemented new pages on the frontend to improve internal troubleshooting efficiency across 130+ engineering & operations team members using React, Redux, and RambdaJS
                   - Engineered a new CI/CD pipeline through Gitlab to perform automated build, release, and deployment to AWS
-                  - Developed extensive test suites and increased internal validations by 30% using JUnit, Spek, Mockito, and YAML`, //job description
+                  - Developed extensive unit, integration, and end-to-end test suites and increased internal validations by 30% using JUnit, Spek, Mockito, and YAML`, //job description
     url: 'https://fispan.com/' //company website link
   },
   {
@@ -145,9 +145,9 @@ export const experienceData = [
     organization: 'UBC Launchpad', //company name
     duration: 'Sept 2020 - Apr 2021', //time spent in the position
     position: 'Software Developer', //job title
-    description: `- Developed innovative apps aimed towards improving ones time management and organizational skills
+    description: `- Developed innovative apps aimed towards improving ones time management and organizational skills using Flutter, Dart, and Android Studio
                   - Engaged in weekly team discussions and lead the initaitive in implementing new ideas and features
-                  - Presented final products to the entire organization`, //job description
+                  - Presented designs and implementation to the entire organization of 50+ members`, //job description
     url: 'https://ubclaunchpad.com/' //company website link
   },
   {

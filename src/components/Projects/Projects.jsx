@@ -28,7 +28,51 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, date, info, info2, url, repo, img, id } = project;
+            const { title, date, info, info2, url, repo, img, mobileImage, id } = project;
+
+            let projectImage;
+
+            if (img) {
+              projectImage = <div className="project-wrapper__image">
+                <Tilt
+                  options={{
+                    reverse: false,
+                    max: 8,
+                    perspective: 1000,
+                    scale: 1,
+                    speed: 300,
+                    transition: true,
+                    axis: null,
+                    reset: true,
+                    easing: 'cubic-bezier(.03,.98,.52,.99)',
+                  }}
+                >
+                  <div data-tilt className="thumbnail rounded">
+                    <ProjectImg alt={title} filename={img} />
+                  </div>
+                </Tilt>
+              </div>
+            } else {
+              projectImage = <div className="project-wrapper__mobile-img">
+                <Tilt
+                  options={{
+                    reverse: false,
+                    max: 8,
+                    perspective: 1000,
+                    scale: 1,
+                    speed: 300,
+                    transition: true,
+                    axis: null,
+                    reset: true,
+                    easing: 'cubic-bezier(.03,.98,.52,.99)',
+                  }}
+                >
+                  <div data-tilt className="thumbnail rounded">
+                    <ProjectImg alt={title} filename={mobileImage} />
+                  </div>
+                </Tilt>
+              </div>
+            }
 
             return (
               <Row key={id}>
@@ -82,32 +126,7 @@ const Projects = () => {
                     delay={1000}
                     distance="30px"
                   >
-                    <div className="project-wrapper__image">
-                      <a
-                        href={url || '#!'}
-                        target="_blank"
-                        aria-label="Project Link"
-                        rel="noopener noreferrer"
-                      >
-                        <Tilt
-                          options={{
-                            reverse: false,
-                            max: 8,
-                            perspective: 1000,
-                            scale: 1,
-                            speed: 300,
-                            transition: true,
-                            axis: null,
-                            reset: true,
-                            easing: 'cubic-bezier(.03,.98,.52,.99)',
-                          }}
-                        >
-                          <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
-                          </div>
-                        </Tilt>
-                      </a>
-                    </div>
+                    {projectImage}
                   </Fade>
                 </Col>
               </Row>
@@ -115,7 +134,7 @@ const Projects = () => {
           })}
         </div>
       </Container>
-    </section>
+    </section >
   );
 };
 
