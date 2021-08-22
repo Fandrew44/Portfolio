@@ -75,7 +75,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    mobileImage: 'todo-cal.PNG',
+    mobileImage: 'time-tracker.PNG',
     title: 'Time Tracker (Launchpad)',
     date: 'Dec 2020',
     info: 'When your focus is jumping from one task to another without break, it\'s easy to lose track of the time and for your attention to waver.',
