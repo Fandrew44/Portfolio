@@ -156,8 +156,9 @@ export const experienceData = [
     organization: 'The University of British Columbia', //company name
     duration: 'Sept 2020 - Dec 2020', //time spent in the position
     position: 'CS Teaching Assistant', //job title
-    description: `- Clarified questions and confusing topics in live and online forum office hours
-                  - Supervised labs and provided guidance and feedback for students' final term project`, //job description
+    description: `- Supervised multiple lab and tutorial sections in CPSC 210 (Software Construction focusing on Java & OOP)
+                  - Clarified questions and confusing topics in live and online forum office hours
+                  - Provided constructive feedback \& guidance for students' final term project`, //job description
     url: 'https://www.cs.ubc.ca/' //company website link
   },
 ];
