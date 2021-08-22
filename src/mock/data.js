@@ -133,8 +133,8 @@ export const experienceData = [
     organization: 'FISPAN', //company name
     duration: 'Jan 2021 - Aug 2021', //time spent in the position
     position: 'Software Development Intern', //job title
-    description: `- Worked in the banking team to develop new payment rails and migrate existing ones using Java, Kotlin, and Spring Boot on the backend 
-                  - Implemented new pages on the frontend to improve internal troubleshooting efficiency across 130+ engineering & operations team members using React, Redux, and RambdaJS
+    description: `- Developed new payment rails in different bank specifications (NACHA, IFX, ISO, etc.) using Spring Framework, Java, and Kotlin 
+                  - Implemented user-friendly internal UI tools to enable 130+ operations & engineering members to efficiently troubleshoot newly released features using React, Redux, and RambdaJS
                   - Engineered a new CI/CD pipeline through Gitlab to perform automated build, release, and deployment to AWS
                   - Developed extensive unit, integration, and end-to-end test suites and increased internal validations by 30% using JUnit, Spek, Mockito, and YAML`, //job description
     url: 'https://fispan.com/' //company website link
@@ -164,7 +164,7 @@ export const experienceData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Project ideas? Work opportunities? Quality memes? I\'m interested!',
+  cta: 'Project ideas? Work opportunities? Good memes? I\'m interested!',
   btn: 'Let\'s Chat!',
   email: 'ahgreeting@gmail.com',
 };
