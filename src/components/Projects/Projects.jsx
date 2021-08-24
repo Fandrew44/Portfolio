@@ -32,46 +32,52 @@ const Projects = () => {
 
             let projectImage;
 
-            if (img) {
-              projectImage = <div className="project-wrapper__image">
-                <Tilt
-                  options={{
-                    reverse: false,
-                    max: 8,
-                    perspective: 1000,
-                    scale: 1,
-                    speed: 300,
-                    transition: true,
-                    axis: null,
-                    reset: true,
-                    easing: 'cubic-bezier(.03,.98,.52,.99)',
-                  }}
-                >
-                  <div data-tilt className="thumbnail rounded">
-                    <ProjectImg alt={title} filename={img} />
-                  </div>
-                </Tilt>
-              </div>
-            } else {
-              projectImage = <div className="project-wrapper__mobile-img">
-                <Tilt
-                  options={{
-                    reverse: false,
-                    max: 8,
-                    perspective: 1000,
-                    scale: 1,
-                    speed: 300,
-                    transition: true,
-                    axis: null,
-                    reset: true,
-                    easing: 'cubic-bezier(.03,.98,.52,.99)',
-                  }}
-                >
-                  <div data-tilt className="thumbnail rounded">
-                    <ProjectImg alt={title} filename={mobileImage} />
-                  </div>
-                </Tilt>
-              </div>
+            {
+              img && (
+                projectImage = <div className="project-wrapper__image">
+                  <Tilt
+                    options={{
+                      reverse: false,
+                      max: 8,
+                      perspective: 1000,
+                      scale: 1,
+                      speed: 300,
+                      transition: true,
+                      axis: null,
+                      reset: true,
+                      easing: 'cubic-bezier(.03,.98,.52,.99)',
+                    }}
+                  >
+                    <div data-tilt className="thumbnail rounded">
+                      <ProjectImg alt={title} filename={img} />
+                    </div>
+                  </Tilt>)
+                  )
+                </div>
+              )
+            }
+            {
+              mobileImage && (
+                projectImage = <div className="project-wrapper__mobile-img">
+                  <Tilt
+                    options={{
+                      reverse: false,
+                      max: 8,
+                      perspective: 1000,
+                      scale: 1,
+                      speed: 300,
+                      transition: true,
+                      axis: null,
+                      reset: true,
+                      easing: 'cubic-bezier(.03,.98,.52,.99)',
+                    }}
+                  >
+                    <div data-tilt className="thumbnail rounded">
+                      <ProjectImg alt={title} filename={mobileImage} />
+                    </div>
+                  </Tilt>
+                </div>
+              )
             }
 
             return (
