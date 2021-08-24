@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, date, info, info2, url, repo, img, mobileImage, id } = project;
+            const { title, date, info, info2, isPortfolioProject, url, repo, img, mobileImage, id } = project;
 
             let projectImage;
 
@@ -102,6 +102,16 @@ const Projects = () => {
                           href={url || '#!'}
                         >
                           Visit Project
+                        </a>
+                      )}
+                      {isPortfolioProject && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href='#!'
+                        >
+                          Visit Proj-...wait
                         </a>
                       )}
 
