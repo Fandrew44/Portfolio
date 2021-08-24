@@ -42,7 +42,7 @@ export const projectsData = [
     title: 'Portfolio Website',
     date: 'Aug 2021', //date at which the project was completed
     info: `Github & LinkedIn are cool and all, but a personal portfolio website offers an unparalleled freedom of self-expression.`,
-    info2: `With that being said, hopefully this portfolio of mine gives you a better idea of who I am! Feel free to poke around. :)`,
+    info2: `With that being said, hopefully this portfolio of mine gives you an insight towards who I am! Feel free to poke around. :)`,
     isPortfolioProject: true,
     url: '',
     repo: 'https://github.com/Fandrew44/Portfolio', // if no repo, the button will not show up,

@@ -111,7 +111,7 @@ const Projects = () => {
                           className="cta-btn cta-btn--hero"
                           href='#!'
                         >
-                          Visit Proj-...wait
+                          Visit Proje-...wait.
                         </a>
                       )}
 
