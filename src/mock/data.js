@@ -147,7 +147,7 @@ export const experienceData = [
     position: 'Software Development Intern', // job title
     description: `- Developed new payment rails in different bank specifications (NACHA, IFX, ISO, etc.) using Spring Framework, Java, and Kotlin 
                   - Implemented user-friendly internal UI tools to enable 130+ operations & engineering members to efficiently troubleshoot newly released features using React, Redux, and RambdaJS
-                  - Engineered a CI/CD pipeline to fully automate the process of publishing API documentation directly served to clients using Gitlab and Docker
+                  - Engineered a CI/CD pipeline to fully automate the publishing of API documentation directly served to clients using Gitlab and Docker
                   - Increased test coverage by 23% through unit, integration, and end-to-end test suites using JUnit,Spek, and Mockito`, // job description
     url: 'https://fispan.com/', // company website link
   },
