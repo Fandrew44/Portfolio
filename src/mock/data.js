@@ -29,7 +29,7 @@ export const aboutData = {
                  real problems that affect people around the world`,
   paragraphThree: `When I'm not programming away on my laptop, you'll most likely find me playing on the nearest volleyball court, learning new tricks at the local skate park,
                    or relaxing in bed with a good book or show`,
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1M3XEgqnXNr7Tqzhr3BWGoz5DxZSHUjz8/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
