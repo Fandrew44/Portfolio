@@ -158,7 +158,7 @@ export const experienceData = [
     duration: 'Sept 2020 - Apr 2021', // time spent in the position
     position: 'Software Developer', // job title
     description: `- Developed innovative apps aimed towards improving ones time management and organizational skills using Flutter, Dart, and Android Studio
-                  - Engaged in weekly team discussions and lead the initaitive in implementing new ideas and features
+                  - Engaged in weekly team discussions and lead the initiative in implementing new ideas and features
                   - Presented designs and implementation to the entire organization of 50+ members`, // job description
     url: 'https://ubclaunchpad.com/', // company website link
   },
